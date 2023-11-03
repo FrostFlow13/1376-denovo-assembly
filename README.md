@@ -5,3 +5,5 @@ This repository contains the full code/processes I used for generation of de nov
 The code will be in a .sh file, but is not intended to be run as the file itself. I highly suggest downloading it and opening it in a software such as Notepad++ for nicer visualization.
 
 Additionally, as a general rule of thumb, if a section of code DOESN'T start with "source /[HOMEPATH]/miniconda3/bin/activate", that means it's very likely something that needs to be done via the terminal! This is because the jobs (which is how I ran these scripts) need conda activated first.
+
+For more information, please feel free to contact myself or Dr. Matthew Anderson (https://genetics.wisc.edu/staff/anderson-matt/), my Ph.D. advisor during my time at The Ohio State University. 
