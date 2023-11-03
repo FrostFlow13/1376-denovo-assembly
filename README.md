@@ -1,6 +1,6 @@
 # 1376-denovo-assembly
 
-This repository contains the full code/processes I used for generation of de novo assemblies using deep long- and short-read sequencing. I cannot guarantee it will work for every organism or dataset, especially for organisms/strains that have low heterozygosity of their genomes or long (~75-100+ kb) tracts of homozygosity between heterozygous regions, but it worked for a CRISPR-competent strain of _Candida albicans_ SC5314 (a diploid single-celled yeast, and specifically a Chr5AB disomic derivative of AHY940 from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5422035/, designated MAY1376). 
+This repository contains the full code/processes I used for generation of de novo assemblies using deep long- and short-read sequencing for a heterozygous, diploid organism. I cannot guarantee it will work for every organism or dataset, especially for organisms/strains that have low heterozygosity of their genomes or long (~75-100+ kb) tracts of homozygosity between heterozygous regions, but it worked for a CRISPR-competent strain of _Candida albicans_ SC5314 (a diploid single-celled yeast, and specifically a Chr5AB disomic derivative of AHY940 from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5422035/, designated MAY1376). 
 
 The code will be in a .sh file, but is not intended to be run as the file itself. I highly suggest downloading it and opening it in a software such as Notepad++ for nicer visualization.
 
