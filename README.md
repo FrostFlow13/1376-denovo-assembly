@@ -2,11 +2,11 @@
 
 This repository contains the full code/processes I used for generation of de novo assemblies using deep long- and short-read sequencing for a heterozygous, diploid organism. I cannot guarantee it will work for every organism or dataset, especially for organisms/strains that have low heterozygosity of their genomes or long (~75-100+ kb) tracts of homozygosity between heterozygous regions, but it worked for a CRISPR-competent strain of _Candida albicans_ SC5314 (a diploid single-celled yeast, and specifically a Chr5AB disomic derivative of AHY940 from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5422035/, designated MAY1376). 
 
-The code will be in a .sh file, but is not intended to be run as the file itself. I highly suggest downloading it and opening it in a software such as Notepad++ for nicer visualization.
+The code will be in a .sh file, but is not intended to be run as the file itself. I highly suggest downloading it and opening it in a software such as Notepad++ for nicer visualization. Please do not hesitate to ask questions, as I know the instructions/comments might be a bit excessive or stream-of-thought at times - I was standardizing my commenting/structure process more thoroughly as time went on, and there are minor changes I would like to make eventually, should I have more time to work on improving the writing of the comments.
 
 Additionally, as a general rule of thumb, if a section of code DOESN'T start with "source /[HOMEPATH]/miniconda3/bin/activate", that means it's very likely something that needs to be done via the terminal! This is because the jobs (which is how I ran these scripts) need conda activated first.
 
-For more information, please feel free to contact myself or Dr. Matthew Anderson (https://genetics.wisc.edu/staff/anderson-matt/), my Ph.D. advisor during my time at The Ohio State University. 
+For more information, please feel free to contact myself or Dr. Matthew Anderson (https://genetics.wisc.edu/staff/anderson-matt/), my Ph.D. advisor during my time at The Ohio State University.
 
 ______________
 For full discloser, the following was what I did prior to running the scripts:
