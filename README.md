@@ -6,7 +6,7 @@ The code will be in a .sh file, but is not intended to be run as the file itself
 
 Additionally, as a general rule of thumb, if a section of code DOESN'T start with "source /[HOMEPATH]/miniconda3/bin/activate", that means it's very likely something that needs to be done/that I did via the terminal! This is because the jobs (which is how I ran these scripts) need conda activated first, and if a script was simple enough I tried to avoid running them as jobs.
 
-For more information, please feel free to contact myself or Dr. Matthew Anderson (https://genetics.wisc.edu/staff/anderson-matt/), my Ph.D. advisor during my time at The Ohio State University. For some of the results that came from near-complete products of this assembly protocol work, please see Chapter 3 of my dissertation (http://rave.ohiolink.edu/etdc/view?acc_num=osu1712852304413336).
+For more information, please feel free to contact myself or Dr. Matthew Anderson (https://genetics.wisc.edu/staff/anderson-matt/), my Ph.D. advisor during my time at The Ohio State University. For some of the results that came from near-complete products of this assembly protocol work, please see Chapter 3 of my dissertation (http://rave.ohiolink.edu/etdc/view?acc_num=osu1712852304413336). The dataset will be publically available on May 5 2025 at "BioProject: PRJNA1117514".
 
 ______________
 For full discloser, the following was what I did prior to running the scripts:
