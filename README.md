@@ -8,6 +8,8 @@ Additionally, as a general rule of thumb, if a section of code DOESN'T start wit
 
 For more information, please feel free to contact myself or Dr. Matthew Anderson (https://genetics.wisc.edu/staff/anderson-matt/), my Ph.D. advisor during my time at The Ohio State University. For some of the results that came from near-complete products of this assembly protocol work, please see Chapter 3 of my dissertation (http://rave.ohiolink.edu/etdc/view?acc_num=osu1712852304413336). The dataset will be publically available on May 5 2025 at "BioProject: PRJNA1117514".
 
+One last thing - I'm actually working on making this a proper (semi-)automated pipeline using either Nextflow or Snakemake! Please see https://github.com/FrostFlow13/denovo_assembly_pipeline for updates on that. On the semi-automated part, this is because several steps I implemented require some degree of actual manual human input/work, especially due to the organism I designed this to work with where there are large repetitive elements (MRS loci) on multiple chromosomes that can cause mismapping and misassembly between them if one isn't careful and doesn't have large enough reads to bridge them (and some are ~50 kb long). It might go slow, and as it's being done in my free time, it might never be fully completed, but I will be working on it (and proper versioning control, too). 
+
 ______________
 For full disclosure, the following was what I did prior to running the scripts:
 
